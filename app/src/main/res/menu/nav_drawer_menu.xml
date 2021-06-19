@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="View Workouts"
+          android:id="@+id/nav_view"
+          android:icon="@drawable/ic_launcher_foreground"/>
+    <item android:title="Add A Workout"
+          android:id="@+id/nav_add"
+          android:icon="@drawable/ic_add"/>
+    <!--<item android:id="@+id/nav_weekly"
+          android:title="Weekly Goals"
+          android:icon="@drawable/ic_weekly_goals"/> -->
+</menu>
