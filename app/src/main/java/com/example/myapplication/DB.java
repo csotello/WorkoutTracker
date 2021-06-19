@@ -37,7 +37,7 @@ public class DB {
         thread = new Thread(){
             @Override
             public void run() {
-                AndroidNetworking.get(DB_API)
+                AndroidNetworking.get(DB_API_ENDPOINT)
                 .setTag("test").setPriority(Priority.LOW)
                 .build()
                 .getAsJSONArray(new JSONArrayRequestListener() {

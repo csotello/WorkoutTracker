@@ -1,0 +1,14 @@
+//Schema for DynamoDB tables
+Programs{ // Each program and the number of weeks
+    id: Int,
+    Name: String,
+    weeks: Int,
+}
+Workouts{ // Each workout in a program
+    id: Int,
+    Day: Int,
+    Week: Int,
+    Finished: Bool,
+    ProgramId:Int,
+    name: String,
+}
